@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding:  0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: bisque;
+}
+.todo{
+    
+    border: 1px solid  #ccc;
+    text-align: center;
+    width: 50%;
+    background-color: white;
+    float: left;    
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 3px  3px 6px rgba(0,0,0,.4);
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 3em;
+    color:  cadetblue;
+    cursor: pointer;
+
+}
+.input-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative; 
+    display: inline-block; 
+
+}
+.todo-input{
+    border: 1px solid gray;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    padding-right: 20px;
+    margin: 5px;
+    padding: 2px;
+    padding-left: 15px;
+    height: 25px;
+    width: 250px;
+}
+.plus { 
+    position: absolute; 
+    top: 30%; 
+    right: 15px; 
+    border: none; 
+    background-color: transparent; 
+    cursor: pointer;
+    text-align: center;
+}
+.container{
+    
+    position: relative; 
+    display: inline-block; 
+    color: black;
+
+}
+.list{
+    border: 1px solid  lightgray;
+    border-radius: 25px;
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
+    height: 25px;
+    width: 250px;
+}
+.delBtn{
+    position: absolute; 
+    top: 30%; 
+    right: 10px; 
+    border: none; 
+    background-color: transparent; 
+    cursor: pointer;
+    text-align: center;
+    float: right;
+
+}
+.checked{
+    text-decoration: line-through;
+}
+li{
+    list-style-type: none;
+    border: 1px solid gray;
+    border-radius: 8px;
+    position: relative;
+    padding-right: 20px;
+    margin: 5px;
+    padding-left: 15px;
+    height: 25px;
+    width: 250px;
+
+}
+.check{position: absolute; 
+    cursor: pointer;
+    right: 70px;
+    float: left;
+    width: 16px;
+    top: 8px;
+    left: 15px;
+}
+.todo-list{
+    border: 1px solid gray;
+    border-radius: 8px;
+    position: relative;
+    margin: 15px;
+    padding: 5px;
+    width: 250px;
+    padding-left: 35px;
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Align items vertically */
+    
+}
